@@ -7,18 +7,21 @@ class SignIn extends Component {
         password : ''
     }
 
-    handleChange = () =>{
-        //some action here
+    handleChange = (e) =>{
+       this.setState({
+           [e.target.id]: e.target.value
+       })
     }
 
-    handleSubmit = ()=>{
-        //some action here
+    handleSubmit = (e)=>{
+        e.preventDefault()
+        console.log(this.state)
     }
 
     render() {
         return (
-            <div>
-                <form action="" className="white">
+            <div className = 'container'>
+                <form action="" onSubmit = {this.handleSubmit}className="white">
                     <h5 className="grey-text text-darken-3">Sign In</h5>
 
                     <div className="input-field">
