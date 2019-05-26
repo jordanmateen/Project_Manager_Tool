@@ -20,7 +20,7 @@ class SignIn extends Component {
 
     render() {
         return (
-            <div className = 'container'>
+            <div className = 'container myform'>
                 <form action="" onSubmit = {this.handleSubmit}className="white">
                     <h5 className="grey-text text-darken-3">Sign In</h5>
 
