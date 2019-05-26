@@ -7,7 +7,8 @@ const NavBar =() => {
     return(
         <nav className="nav-wrapper navvy">
             <div className="container">
-                <Link to = '/' className = "brand-logo">Vickye</Link>
+                <img class ="logo"src = {require('../../img/nut.png')}  alt ='nut'/>
+                <Link to = '/' className = "brand-logo">Squirrel</Link>
                 <SignedInLinks/>
                 <SignedOutLinks/>
             </div>
