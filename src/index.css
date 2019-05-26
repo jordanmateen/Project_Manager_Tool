@@ -31,7 +31,11 @@ form button, form h5{
   margin : 20px 0;
 }
 
-
+.logo{
+  height: 50px;
+  width : 50px;
+  filter: brightness(2);
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
